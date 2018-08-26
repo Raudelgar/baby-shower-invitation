@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
+// import NavBarFeature from './NavBarFeature';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <section className="sectionOne">
-          <p>This an example text on Section One for the Google Fonts</p>
-        </section>
-        <section className="sectionTwo">
-          <p>This an example text on Section Two for the Google Fonts</p>
-        </section>
+      <div className="App">  
         <section className="sectionThree">
-
-        </section>
+          <a target="_blank" href="https://goo.gl/maps/Rv37jgSc9rw">Harrison Grande Community Clubhouse 311 Sudbury Dr, Cary, NC 27513</a> 
+        </section>    
       </div>
     );
   }
